@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --primary-color:#0891b2;
+    --default-color: #172B4D;
+    --secondary-color: #F3F4F6;
+    --danger-color: #F44336;
+    --success-color: #4CAF50;
+    --warning-color: #FF9800;
+    --primary-hover: #4F46E5;
+    --secondary-hover:#22d3ee;
+    --danger-hover: #d31609;
+    --success-hover: #0d8611;
+    --active-hover: #058ce0;
+    --off-white: #F6F9FC;
+    --active-color: #1EA7FD;
+    --primary-light-clr:#60a5fa;
+    --lighter-blue-clr:#22d3ee;
+    --black-dark-shade-clr:#0f172a;
+}
+
+
+
+
+
+.header-section{
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 1rem; */
+    padding: 2rem;
+    background-color:var(--primary-color);
+ 
+    position: fixed;
+    width: 100%;
+    top: 0;
+ 
+ 
+ }
+ 
+ /* logo text */
+ 
+     .logo-name{
+         /* font-size: 2rem; */
+         font-weight: bold;
+     }
+ 
+     .nav-section{
+ 
+         display: flex;
+         gap: 1rem;
+         flex-wrap: wrap;
+         margin-right: 1rem;
+ 
+         
+     }
+ 
+ 
+ 
+     /* individual-links */
+     .nav-links{
+         text-decoration: none;
+         padding: 0.5rem;
+ 
+         color:var(--black-dark-shade-clr);
+         
+         position: relative;
+     }
+ 
+ 
+     /* hover effect for the links  */
+     .nav-links::after{
+         content: '';
+         position:absolute;
+         left: 0;
+         bottom: 0;
+         width: 0;
+         height: 2px;
+         background-color:var(--secondary-color);
+ 
+     }
+ 
+     .nav-links:hover::after{
+         width: 100%;
+         transition: 0.5s;
+     }
+ 
+ 
+     .logo-link{
+         text-decoration: none;
+         color: black;
+     }
+/* ............................................. */
+
+ /* body-section */
+
+ .content-section{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex: 1;
+    
+
+     background-color:var(--lighter-blue-clr);
+    
+     /* height: calc(100%-112px); */
+    flex: 1;
+     /* margin-top: 112px; */
+     /* overflow-y:hidden ; */
+    }
+
+    body{
+        display:flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+
+ 
+
+
+ /* text-container  it is the parent container for the h1 and p tag*/
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* flex: ; */
+
+
+    /* for justifing the content */
+    text-align: justify;
+    margin-bottom: 0.5rem;
+    margin-top: 7rem;
+}
+    /* child container for the text-containers. i.e h1 and p itself */
+
+    .title-text{
+        text-align: center;
+        font-size: 3rem;
+        padding: 5rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .title-description{
+
+        text-align: justify;
+    }
+
+/* button containers and it's child elements */
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    
+}
+
+    .btns{
+        padding:0.5rem 2rem;
+        border-radius: 0.2rem;
+        text-decoration: none;
+        background-color:var(--primary-light-clr);
+        border: none;
+        
+    }
+
+    .btns-link{
+        text-decoration: none;
+        color:black;
+    }
+
+
+    /* hover effect on btns */
+    .btns-link:hover{
+        color:#fff;
+        
+    }
+
+
+
+/* footer section */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+
+    padding: 2rem;
+    background-color: var(--primary-color);
+
+    /* margin-left: 10rem; */
+
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.footer-page-btn {
+    text-decoration: none;
+    color: black;
+}
