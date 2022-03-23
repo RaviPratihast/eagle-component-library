@@ -8,8 +8,12 @@
     <!-- <link rel="stylesheet" href="gettingStarted.css"> -->
     <link rel="stylesheet" href="/documentationsite.css">
 
+    <!-- <link rel="stylesheet" href="avatar.css"> -->
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="badge.css">
     <title>Introduction</title>
 </head>
 
@@ -64,9 +68,9 @@
         <div class="links-section">
 
 
-            <a href="/avatar/avatar.html" class="nav-links">Avatar</a>
+            <a href="/avatar/avatar.html" class="nav-links ">Avatar</a>
             <a href="/alert/alert.html" class="nav-links">Alert</a>
-            <a href="/badge/badge.html" class="nav-links">Badge</a>
+            <a href="/badge/badge.html" class="nav-links test-active">Badge</a>
             <a href="/button/button.html" class="nav-links">Button</a>
             <a href="/card/card.html" class="nav-links">Card</a>
             <a href="/images/image.html" class="nav-links">Image</a>
@@ -81,8 +85,91 @@
 
     </aside>
 
+
+
+
     <div class="content-container">
+        <div class="content-container-subsection">
 
-        <h1 class="welcome-text">Badge</h1>
 
+            <h2 class="main-title">Badge</h2>
+            <p class="text">Badges are small circles, positioned either at top-right or bottom-right of the parent
+                component. Badge can be used to display numbers, online / offline status, depending on where they are
+                used.</p>
+
+
+
+            <hr>
+
+            <h3 class="inside-main-title">Profile Badge</h3>
+            <p class="text">Profile Badge is user to show the current status of a user.</p>
+
+            <p class="highlight-text-purple">It can be used with 3 variants: online|offline|dnd</p>
+
+            <div class="component-display-container">
+
+                <div class="avatar-container-status status-badge">
+                    <img src="/image/profile.png" alt="Profile-image" srcset="" class="avatar-img">
+
+                    <div class="active-badge online"></div>
+                </div>
+
+
+                <div class="avatar-container-status status-badge">
+                    <img src="/image/profile.png" alt="Profile-image" srcset="" class="avatar-img">
+
+                    <div class="active-badge offline"></div>
+                </div>
+
+                <div class="avatar-container-status status-badge">
+                    <img src="/image/profile.png" alt="Profile-image" srcset="" class="avatar-img">
+
+                    <div class="active-badge dnd"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+<!-- second container -->
+
+        <div class="content-container-subsection">
+
+
+          
+            <hr>
+
+            <h3 class="inside-main-title">Number Badge</h3>
+            <p class="text">Number Badge is used to show the no. of items present in the parent component.</p>
+
+            <!-- <p class="highlight-text-purple">It can be used with 3 variants: online|offline|dnd</p> -->
+
+            <div class="component-display-container">
+
+                <div class="avatar-container-status status-badge">
+                    <img src="/image/profile.png" alt="Profile-image" srcset="" class="avatar-img">
+
+                    <div class="active-badge online"></div>
+                </div>
+
+
+                <!-- <div class="avatar-container-status status-badge">
+                    <img src="/image/profile.png" alt="Profile-image" srcset="" class="avatar-img">
+
+                    <div class="active-badge offline"></div>
+                </div> -->
+
+                <!-- <div class="avatar-container-status status-badge">
+                    <img src="/image/profile.png" alt="Profile-image" srcset="" class="avatar-img">
+
+                    <div class="active-badge dnd"></div>
+                </div> -->
+            </div>
+
+        </div>
     </div>
+
+
+
+
+</body>

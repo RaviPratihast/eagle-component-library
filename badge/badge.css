@@ -1,0 +1,37 @@
+.avatar-container-status{
+    /* padding: 2rem; */
+
+    position: relative;
+}
+
+.active-badge{
+    
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    position:absolute;
+    top: 4.7rem;
+    bottom: 0;
+    right: 0;
+    left: 4.1rem;
+
+}
+
+/* status of the badges */
+.online{
+    background-color:var(--success-color);
+    border:0.2rem solid var(--off-white);
+}
+
+.offline{
+    background-color:var(--danger-color);
+    border:0.2rem solid var(--off-white);
+}
+
+.dnd{
+    background-color:var(--grey-shade-color);
+    border:0.3rem solid var(--off-white);
+}
+
+
+

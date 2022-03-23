@@ -26,6 +26,7 @@
     --primary-light-clr: #60a5fa;
     --lighter-blue-clr: #22d3ee;
     --black-dark-shade-clr: #0f172a;
+    --grey-shade-clr:#64748b;
 }
 
 /* header-container........................... */
@@ -207,6 +208,7 @@
 /* highlighter text in purple */
 .highlight-text-purple{
     color: blue;
+    padding: 0.3rem 0.3rem 0.3rem 1rem;
 }
 
 
