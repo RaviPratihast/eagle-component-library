@@ -195,7 +195,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
     background-color: beige;
     padding: 2rem 0.5rem 2rem 0.5rem;
     border: 0.1rem solid black;
