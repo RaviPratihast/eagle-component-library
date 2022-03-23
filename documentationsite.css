@@ -1,3 +1,7 @@
+
+@import url("/import.css");
+
+
 * {
     margin: 0;
     padding: 0;
@@ -183,3 +187,26 @@
     text-align: justify;
 
 }
+
+
+/* display purpose */
+/* avatar-container-wrapper this is the container which will there in every page and should be exactly same what it is shown in every page. */
+.component-display-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: beige;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    border: 0.1rem solid black;
+
+    
+}
+
+
+/* highlighter text in purple */
+.highlight-text-purple{
+    color: blue;
+}
+
+

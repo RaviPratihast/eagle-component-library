@@ -8,6 +8,8 @@
     <!-- <link rel="stylesheet" href="gettingStarted.css"> -->
     <link rel="stylesheet" href="/documentationsite.css">
 
+    <!-- <link rel="stylesheet" href="avatar.css"> -->
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
         rel="stylesheet">
     <title>Introduction</title>
@@ -83,14 +85,101 @@
 
     <div class="content-container">
 
-        <h2 class="main-title">Avatar</h2>
-        <p class="text">Avatars are user profile pictures, usually found in circular shapes. Avatars can be used for 'container' objects — projects, spaces, repositories, etcetera — to give them a recognisable visual identity.</p>
+        <div class="content-container-subsection">
 
-        <hr>
+            <h2 class="main-title">Avatar</h2>
+            <p class="text">Avatars are user profile pictures, usually found in circular shapes. Avatars can be used for
+                'container' objects — projects, spaces, repositories, etcetera — to give them a recognisable visual
+                identity.</p>
 
-        <h3 class="inside-main-title">Profile Avatar</h3>
-        <p class="text">Profile Avatars can be created using the class 'avatar', inside the img tag</p>
-        
-  
-      </div>
+            <hr>
 
+            <h3 class="inside-main-title">Profile Avatar</h3>
+            <p class="text">Profile Avatars can be created using the class 'avatar-img', inside the img tag</p>
+
+            <div class="component-display-container">
+
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img">
+                </div>
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img">
+                </div>
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img">
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="content-container-subsection">
+
+            <h2 class="main-title"></h2>
+            <p class="text"></p>
+
+            <hr>
+
+            <h3 class="inside-main-title">Sizes Avatar</h3>
+            <p class="text">Size of the avatars can be changed by adding sm | md | lg class to the existing avatar
+                class.</p>
+
+
+
+            <div class="component-display-container">
+
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img sm">
+                </div>
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img md">
+                </div>
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img lg">
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- square avatar -->
+        <div class="content-container-subsection">
+
+
+            <h2 class="main-title"></h2>
+            <p class="text"></p>
+
+            <hr>
+
+            <h3 class="inside-main-title">Square Avatar</h3>
+            <p class="text">Adding a class 'square' to existing class, will generate a square shaped avatar.</p>
+            <p class="highlight-text-purple">Note: Square class wouldn't work if the image provided is svg.</p>
+
+
+            <div class="component-display-container">
+
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img sm  sqr">
+                </div>
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img md sqr">
+                </div>
+                <div class="avatar-container"><img src="/image/profile.png" alt="Profile-image" srcset=""
+                        class="avatar-img lg sqr">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- sizes Avatar -->
+
+
+
+
+
+</body>
