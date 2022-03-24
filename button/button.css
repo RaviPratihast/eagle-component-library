@@ -1,0 +1,118 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.2rem;
+    border: none;
+    font: 1.5rem;
+    font-weight: bold;
+}
+
+
+.default-btn-clr {
+    color: var(--off-white);
+    background-color: var(--dark-shade-900-blue);
+
+
+
+}
+
+.primary-btn-clr {
+
+    color: var(--off-white);
+    background-color: var(--primary-hover);
+}
+
+.secondary-btn-clr {
+    color: var(--off-white);
+    background-color: var(--grey-shade-clr);
+
+}
+
+.error-btn-clr {
+
+    color: var(--off-white);
+    background-color: var(--danger-color);
+}
+
+.success-btn-clr {
+    color: var(--off-white);
+    background-color: var(--success-color);
+
+}
+
+
+
+/* outlined button color */
+.outlined-default-btn-clr {
+    color: var(--dark-shade-900-blue);
+    background-color: var(--off-white);
+    border: 0.1rem solid var(--dark-shade-900-blue);
+
+}
+
+.outlined-primary-btn-clr {
+
+    color: var(--primary-hover);
+
+    background-color: var(--off-white);
+    border: 0.1rem solid var(--primary-hover);
+}
+
+.outlined-secondary-btn-clr {
+    color: var(--grey-shade-clr);
+    background-color: var(--off-white);
+
+    border: 0.1rem solid var(--grey-shade-clr);
+
+}
+
+.outlined-error-btn-clr {
+
+    color: var(--danger-color);
+    background-color: var(--off-white);
+    border: 0.1rem solid var(--danger-color);
+}
+
+.outlined-success-btn-clr {
+    color: var(--success-color);
+    background-color: var(--off-white);
+    border: 0.1rem solid var(--success-color);
+
+}
+
+
+
+/* link button  */
+.link-btn-clr{
+    color: var(--off-white);
+
+    background-color: var(--active-color);
+    /* border: 0.1rem solid var(--primary-hover); */
+    cursor: pointer;
+}
+
+
+
+/* icon button */
+
+
+.icon-btn{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.icon-save{
+    /* height: 10rem; */
+    /* width: 1rem; */
+    /* text-align: center; */
+    /* font-size: 15rem; */
+}
