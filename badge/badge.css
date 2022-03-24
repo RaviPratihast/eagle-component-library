@@ -35,3 +35,31 @@
 
 
 
+/* email badge */
+
+.email-badge{
+    height: 1.8rem;
+    width: 1.8rem;
+    
+    /* display:absolute; */
+    left: 4.5rem;
+    top: 0.5rem;
+
+
+   
+}
+
+.shopping-cart-badge{
+    height: 1.8rem;
+    width: 1.8rem;
+
+    left: 4rem;
+    top: 0.3rem;
+}
+
+.badge-value{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: var(--off-white);
+}
