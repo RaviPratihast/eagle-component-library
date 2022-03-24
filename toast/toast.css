@@ -1,0 +1,7 @@
+.toast{
+    background-color: var(--off-white);
+    height: 5rem;
+    width: auto;
+    text-align: center;
+    font-size: 1rem;
+}

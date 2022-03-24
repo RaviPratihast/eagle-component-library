@@ -3,4 +3,7 @@
 @import url("/badge/badge.css");
 @import url("/button/button.css");
 @import url("/card/card.css");
-@import url("/images/image.css")
+@import url("/images/image.css");
+@import url("/input/input.css");
+@import url("list/list.css");
+@import url("/toast/toast.css");
