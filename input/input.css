@@ -1,0 +1,10 @@
+.input-container{
+    display:flex;
+    gaprem;
+}
+
+.label-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
