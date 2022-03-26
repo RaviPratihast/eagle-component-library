@@ -1,0 +1,19 @@
+.list-container{
+    background-color: var(--off-white);
+    padding: 2rem;
+    text-decoration:none;
+}
+
+
+.list-title{
+    /* border-bottom: 0.1rem solid; */
+    border-block-end: solid;
+    writing-mode:horizontal-tb;
+}
+
+
+
+.nested-list-container{
+    background-color:var(--off-white);
+    padding: 2rem;
+}
